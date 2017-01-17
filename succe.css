@@ -1,5 +1,5 @@
 body {
-	color: #111;
+	color: #fff;
 	font-family: "Segoe UI", sans-serif;
 	margin-top: 70px;
 }
@@ -33,6 +33,11 @@ body {
 h1,h2,h3 {
 	font-weight: 500;
 }
+
+body {
+    background: url(https://static.pexels.com/photos/6547/sky-night-space-galaxy.jpeg);
+}
+
 a {
 	color: #b12a2a;
 	text-decoration: none;
