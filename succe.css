@@ -2,6 +2,7 @@ body {
 	color: #fff;
 	font-family: "Segoe UI", sans-serif;
 	margin-top: 70px;
+	background: url(https://static.pexels.com/photos/6547/sky-night-space-galaxy.jpeg);
 }
 .c {
 	width: 960px;
@@ -25,6 +26,8 @@ body {
   padding: 8px;
   float: left;
   color: #fff;
+  padding-bottom: 10px;
+  padding-top: 10px;
 }
 
 .nav li:hover {
@@ -33,17 +36,15 @@ body {
 h1,h2,h3 {
 	font-weight: 500;
 }
-
-body {
-    background: url(https://static.pexels.com/photos/6547/sky-night-space-galaxy.jpeg);
-}
-
 a {
 	color: #b12a2a;
 	text-decoration: none;
+	border-bottom: 2px solid transparent;
+	transition: border 0.2s;
 }
 a:hover {
-	text-decoration: underline;
+	border-bottom: 2px solid #b12a2a;
+	transition: border 0.2s;
 }
 .copy {
 	width: 150px;
@@ -51,7 +52,7 @@ a:hover {
     overflow: hidden;
 }
 button {
-	background: #00FFFF;
+	background: #d24242;
     border: none;
     color: #fff;
     padding: 5px;
@@ -67,4 +68,3 @@ button:hover {
     padding-right: 10px;
     cursor: pointer;
 }
-
